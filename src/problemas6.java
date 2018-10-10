@@ -24,7 +24,7 @@ public class problemas6 {
 
         if (mesa <= mesn) {
             if (diaa < dian) {
-                x = x - 1;
+                x -= 1;
             }
         }
         System.out.println(x);
