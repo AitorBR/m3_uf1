@@ -22,11 +22,12 @@ public class problemas6 {
 
         x = anya - anyn;
 
-        if (mesa <= mesn) {
-            if (diaa < dian) {
-                x -= 1;
-            }
+        if (mesa < mesn) {
+            x -= 1;
+        } else if (diaa < dian) {
+            x -= 1;
         }
         System.out.println(x);
     }
 }
+

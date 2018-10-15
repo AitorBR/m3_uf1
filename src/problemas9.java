@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class problemas5 {
+public class problemas9 {
 
     public static void main(String[] args) {
 
@@ -9,10 +9,7 @@ public class problemas5 {
 
         System.out.println("Pon un numero: ");
         x = poner.nextFloat();
-        System.out.println(x / ((double)(100-5)/100));
 
-        //y = ((double)(100-5)/100);
-        //System.out.println(y);
 
     }
 }
